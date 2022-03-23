@@ -30,5 +30,7 @@ public class Main {
 
         int result3 = 5 + 15 / 3 * 2 - 8 % 3;
         System.out.println("result3=" + (5 + 15 / 3 * 2 - 8 % 3));
+
+        // Second commit
     }
 }
