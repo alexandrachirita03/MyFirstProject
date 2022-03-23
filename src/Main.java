@@ -20,17 +20,17 @@ public class Main {
         // Print the result
 
         int result = -5 + 8 * 6;
-        System.out.println("result=" + (-5 + 8 * 6));
+        System.out.println("result=" + result);
 
         int result1 = (55 + 9) % 9;
-        System.out.println("result1=" + (55 + 9) % 9);
+        System.out.println("result1=" + result1);
 
         int result2 = 20 + -3 * 5 / 8;
-        System.out.println("result2=" + (20 + -3 * 5 / 8));
+        System.out.println("result2=" + result2);
 
         int result3 = 5 + 15 / 3 * 2 - 8 % 3;
-        System.out.println("result3=" + (5 + 15 / 3 * 2 - 8 % 3));
+        System.out.println("result3=" + result3);
 
-        // Second commit
+
     }
 }
