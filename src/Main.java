@@ -25,7 +25,8 @@ public class Main {
         int result1 = (55 + 9) % 9;
         System.out.println("result1=" + result1);
 
-        int result2 = 20 + -3 * 5 / 8;
+       double result2 = 20 + -3 * 5 / 8;
+
         System.out.println("result2=" + result2);
 
         int result3 = 5 + 15 / 3 * 2 - 8 % 3;
