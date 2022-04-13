@@ -2,11 +2,64 @@ package AnimalRescuer;
 
 public class Dog {
 
-    String name = "Pongo";
-    int ageInMonths = 18;
-    int healthStatus = 8;
-    int starving = 9;
-    int stateOfMind = 10;
-    String favoriteFood = "Bones";
-    String recreationalActivity = "Chasing after cats";
+    private String name;
+    private int ageInMonths;
+    private int healthStatus;
+    private int starving;
+    private int stateOfMind;
+    private String favoriteFood;
+    private String recreationalActivity;
+
+
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName (String name){
+         this.name = name;
+    }
+
+    public int getAgeInMonths(){
+        return ageInMonths;
+    }
+    public void setAgeInMonths(int ageInMonths){
+        this.ageInMonths = ageInMonths;
+    }
+
+    public int getHealthStatus(){
+        return healthStatus;
+    }
+    public void setHealthStatus(int healthStatus){
+        this.healthStatus = healthStatus;
+    }
+
+    public int getStarving(){
+        return starving;
+    }
+    public void setStarving(int starving){
+        this.starving = starving;
+    }
+
+    public int getStateOfMind(){
+        return stateOfMind;
+    }
+    public void setStateOfMind(int stateOfMind){
+        this.stateOfMind = stateOfMind;
+    }
+
+    public String getFavoriteFood(){
+        return favoriteFood;
+    }
+    public void setFavoriteFood(String favoriteFood){
+        this.favoriteFood = favoriteFood;
+    }
+
+    public String getRecreationalActivity(){
+        return recreationalActivity;
+    }
+    public void setRecreationalActivity(String recreationalActivity){
+        this.recreationalActivity = recreationalActivity;
+    }
 }
+

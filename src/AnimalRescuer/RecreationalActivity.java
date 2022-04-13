@@ -2,5 +2,13 @@ package AnimalRescuer;
 
 public class RecreationalActivity {
 
-    String name = "Bringing a dropped object";
+    private String nameOfActivity;
+
+    public String getNameOfActivity(){
+        return nameOfActivity;
+    }
+    public void setNameOfActivity(String nameOfActivity){
+        this.nameOfActivity = nameOfActivity;
+    }
+
 }
