@@ -76,7 +76,7 @@ public class Main4 {
         int to2 = 8899;
         System.out.println(op.getSum(from, to2));
 //    8.
-        System.out.println(op.getAverageFrom7Numbers(1, 100));
+        System.out.println(op.getAverageFrom7Numbers(1, 200));
 //    9. Creati o metoda care sa afiseze primele 20 de numere din sirul lui Fibonacci.
         op.diplayingFibonacciSeries(20);
     }
