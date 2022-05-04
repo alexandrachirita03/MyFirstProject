@@ -1,65 +1,28 @@
 package AnimalRescuer;
 
-public class Dog {
+public class Dog extends Animal {
 
-    private String name;
-    private int ageInMonths;
-    private int healthStatus;
-    private int starving;
-    private int stateOfMind;
-    private String favoriteFood;
-    private String recreationalActivity;
-
-
-
-    public String getName(){
-        return name;
+@Override
+    public void play(){
+        System.out.println("Playing fetch");
     }
 
-    public void setName (String name){
-         this.name = name;
+   @Override
+   public void eat() {
+
+       System.out.println("Eating bones");
     }
 
-    public int getAgeInMonths(){
-        return ageInMonths;
-    }
-    public void setAgeInMonths(int ageInMonths){
-        this.ageInMonths = ageInMonths;
-    }
 
-    public int getHealthStatus(){
-        return healthStatus;
-    }
-    public void setHealthStatus(int healthStatus){
-        this.healthStatus = healthStatus;
-    }
 
-    public int getStarving(){
-        return starving;
-    }
-    public void setStarving(int starving){
-        this.starving = starving;
-    }
+    @Override
 
-    public int getStateOfMind(){
-        return stateOfMind;
+    public void sleep() {
+        System.out.println("Dog is sleeping");
     }
-    public void setStateOfMind(int stateOfMind){
-        this.stateOfMind = stateOfMind;
-    }
-
-    public String getFavoriteFood(){
-        return favoriteFood;
-    }
-    public void setFavoriteFood(String favoriteFood){
-        this.favoriteFood = favoriteFood;
-    }
-
-    public String getRecreationalActivity(){
-        return recreationalActivity;
-    }
-    public void setRecreationalActivity(String recreationalActivity){
-        this.recreationalActivity = recreationalActivity;
+    @Override
+     public void sounds() {
+        System.out.println("The dos says: woof, woof!");
     }
 }
 

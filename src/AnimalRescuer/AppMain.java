@@ -93,5 +93,24 @@ public class AppMain {
         System.out.println("Name of doctor is " + doctor.getName());
        doctor.setSpecialization("surgeon");
         System.out.println("Doctor specialization is " + doctor.getSpecialization());
+
+        Cat cat = new Cat();
+        cat.eat();
+
+        cat.setAgeInMonths(5);
+        cat.play();
+        Dog dog = new Dog();
+        dog.sounds();
+        Duck duck = new Duck();
+        dog.sleep();
+        Duck duck2 = new Duck();
+        duck2.sleep();
+        duck2.quacks();
+        duck2.eat();
+        duck2.play();
+         Labrador labrador = new Labrador();
+         labrador.sleep();
+         labrador.setName("Oli");
+         labrador.eat();
     }
 }
